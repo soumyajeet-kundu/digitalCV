@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https:/hjjh/cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<div class="topnav hover">
+  <a class="active" href="#home" style="color: black; font-family: Tahoma, sans-serif"><strong>Soumyajeet Kundu</strong></a>
+  <div class="topnav-right">
+      <a (click) = "toEdu()" routerLink="/app">Education</a>
+      <a (click) = "toExp()" routerLink="/app">Experience</a>
+      <a (click) = "toPro()" routerLink="/app">Projects</a>
+      <a (click) = "toCerti()" routerLink="/app">Certification</a>
+
+      
+  </div>
+</div> 
+<br>
+
+<body>
+  <div class="main">
+<div class="float-container">
+
+  <div class="float-child1">
+    
+    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFv2bV4Wn6avA/profile-displayphoto-shrink_800_800/0/1621961578427?e=1627516800&v=beta&t=YaJhhX9tC2uvjLuT_MBTcYE551ky-wWQzV7dII-pXPs" alt="Avatar"><br><br>
+
+    <button class="btn btn-sm btn-primary" (click)="goTolinkedin()"><i class="fa fa-linkedin-square"></i> linkedIn</button><br>
+    <button class="btn btn-sm btn-success" style="margin-top: 10px;" (click)="goTogithub()"><i class="fa fa-github"></i> github</button><br>
+    <button class="btn btn-sm btn-info" style="margin-top: 10px;" (click)="goTohackerrank()"><i class='fa fa-code'></i> hackerrank</button><br><br>
+
+
+    <p class="bio"><i class="	fa fa-address-book-o"></i> Nityananda Ashram Road, Nutanganj, Bankura, West Bengal - 722101</p>
+    <p class="bio"><i class="fa fa-mobile-phone"></i> 8360140537</p>
+    <p class="bio"><i class="fa fa-envelope"></i> soumyakbnk@gmail.com</p>
+    <br><br>
+
+    <div class="bio"
+    style="text-align: left; padding-left: 30px;">
+      <p><u><i class='fa fa-hand-o-right'>&nbsp;</i>Languages Known:</u></p>
+    <ul>
+      <li><b>English:</b> Professional</li>
+      <li><b>Hindi:</b> Professional</li>
+      <li><b>Bengali:</b> Native</li>
+    </ul>
+    </div><br><br>
+
+    <div class="bio" style="text-align: left; padding-left: 30px;">
+      <p><u><i class='fa fa-hand-o-right'>&nbsp;</i>Skillsets:</u></p>
+      <ul>
+        <li>C programming<div class="progress" style="margin-bottom: 5px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;" ></div>
+        </div></li>
+
+        <li>Java<div class="progress" style="margin-bottom: 5px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+        </div></li>
+
+        <li>JavaScript<div class="progress" style="margin-bottom: 5px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+        </div></li>
+
+        <li>Angular<div class="progress" style="margin-bottom: 5px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+        </div></li>
+
+        <li>UI/UX design<div class="progress" style="margin-bottom: 5px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+        </div></li>
+      </ul>
+    </div>
+
+  </div>
+  
+
+
+
+  <div class="float-child2">
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgba(17, 192, 31, 0.993); text-align: center;"><strong>Soumyajeet Kundu</strong></h1><br>
+    <p class="about">I am a hard-working and detail-oriented person who isn’t afraid to face a challenge.
+      I’m passionate about my work and always love to finish the job before the deadline.
+      Rather than these I would describe myself as an open-minded, fun-loving and honest person who doesn’t believe in misleading other people and tries to be fair in everything I do.</p><br>
+
+
+      <div>
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(12, 106, 214);" id="exp"><u>Experience</u></h3>
+        <p style="font-size: 12px;"><b><i class='fa fa-hand-o-right'></i> May 2021 - present</b></p>
+        <p class="about" style="margin-top: -16px;">Associate Software Engineer  @<b>L&T Technology Services</b></p>
+
+        <p style="font-size: 12px;"><b><i class='fa fa-hand-o-right'></i> Feb 2021 - May 2021</b></p>
+        <p class="about" style="margin-top: -16px;">Associate Software Engineer Intern @<b>L&T Technology Services</b></p>
+
+        <p style="font-size: 12px;"><b><i class='fa fa-hand-o-right'></i> Aug 2020 - Feb 2021</b></p>
+        <p class="about" style="margin-top: -16px;">Operations Analyst @<b>Zoutons.com</b></p>
+        <p class="about" style="margin-top: -15px; font-size: medium;"><u><b>Key Responsibilites:</b></u></p>
+        <div class="about"
+        style="margin-top: -20px; font-size: medium;"><ul>
+          <li>Manage relationships with each affiliate to grow subscribers using multiple media types</li>
+          <li>Evaluate campaign performance and work with affiliates on a daily basis Digital content writing</li>
+          <li>Analyze the Data trafficking @zoutons.com </li>
+          <li> Managed website according to SEO </li>
+          <li>Basic Search Engine Optimization</li>
+        </ul>
+        </div>
+
+        <p style="font-size: 12px;"><b><i class='fa fa-hand-o-right'></i> Feb 2020 - Jun 2020</b></p>
+        <p class="about" style="margin-top: -16px;">Operations Analyst @<b>Collegedunia Web Pvt. Ltd.</b></p>
+        <p class="about" style="margin-top: -15px; font-size: medium;"><u><b>Key Responsibilites:</b></u></p>
+        <div class="about"
+        style="margin-top: -20px; font-size: medium;"><ul>
+          <li>Learned how to manage relationships with each affiliate to grow subscribers</li>
+          <li>Analyze the Data trafficking @zoutons.com </li>
+          <li>Learned how to manage website according to SEO </li>
+        </ul>
+        </div><br>
+      </div>
+
+
+
+      <div>
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(12, 106, 214);" id="edu"><u>Education</u></h3>
+      </div>
+      <h6 class="about"><i class='fa fa-arrow-circle-right'></i><b> Lovely Professional University</b> [Phagwara, Punjab]</h6>
+      <div class="about"
+      style="margin-top: -8px; font-size: medium;">
+      <ul>
+        <li>B.Tech in Computer Science and Engineering</li>
+        <p style="margin-top: -6px; padding-left: 50px;"><i class='fa fa-angle-double-right'> CGPA: 6.8</i></p>
+      </ul></div>
+
+      <h6 class="about"><i class='fa fa-arrow-circle-right'></i><b> Bankura Zilla School</b> [Bankura, West Bengal]</h6>
+      <div class="about"
+      style="margin-top: -8px; font-size: medium;">
+      <ul>
+        <li>Class XII [Science]</li>
+        <p style="margin-top: -6px; padding-left: 50px;"><i class='fa fa-angle-double-right'> Percentage: 88.2</i></p>
+      </ul></div>
+
+      <h6 class="about"><i class='fa fa-arrow-circle-right'></i><b> Bankura Zilla School</b> [Bankura, West Bengal]</h6>
+      <div class="about"
+      style="margin-top: -8px; font-size: medium;">
+      <ul>
+        <li>Class X</li>
+        <p style="margin-top: -6px; padding-left: 50px;"><i class='fa fa-angle-double-right'> Percentage: 92.3</i></p>
+      </ul></div><br>
+
+
+
+      <div>
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(12, 106, 214);" id="projects"><u>Projects</u></h3>
+        <div class="about"><ul>
+          <li><b>Bite Studio: </b>Have developed a complex web-app for aircraft maintenance engineer that will detect the fault error, record it and show it during the flight time of an aircraft. I have used Spring Boot as backend development, Angular as frontend work and mySql as the database.</li>
+          <p style="margin-top: -1px; font-size: medium;" (click)="goTobitestudio()"><i class='fa fa-angle-double-right' style="padding-left: 50px;"></i>&nbsp;<u>project link:</u> <em style="color: blue;"> https://github.com/soumyajeet-kundu/Shadow-BiteStudio</em></p>
+        </ul>
+        </div>
+        <div class="about">
+          <ul>
+            <li><b>Digital CV: </b>This digital CV is made of Angular, HTML, CSS which will showcase my education background, personal details and support my work as a proof. </li>
+          </ul>
+        </div><br>
+
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(12, 106, 214);" id="certi"><u>Certification</u></h3>
+        <div class="about">
+        <ul>
+          <li>Achieved Core Java Certification from Internshala</li>
+          <li>Comepleted Data Science Orientation course from Coursera</li>
+          <li>Completed certification course on C and C++ from Webtek Labs Pvt. Ltd (Kolkata)</li>
+        </ul></div>
+      </div>
+    </div>
+
+
+
+
+    <div class="float-child3">
+      <div class="container">
+        <div class="jumbotron" style="text-align: center; ">
+               <p class="about"><span style="color: red;">*</span><em>download the soft copy here</em></p>
+          <a href="assets/Soumyajeet_Resume.pdf" class="btn btn-primary" role="button" target="_blank" download="Soumyajeet_Resume.pdf">Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
